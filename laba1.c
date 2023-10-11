@@ -4,6 +4,7 @@ float u (float y, float x, float z)
 {
 float w=-sqrt(y*y+((4*x*x)/3));
 float g=(5*cos(x*y)*cos(x*y)*cos(x*y)*cos(x*y))/(x*z);
+return w+g;
 }
 int main()
 {
